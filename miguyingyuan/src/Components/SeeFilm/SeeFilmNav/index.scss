@@ -1,0 +1,60 @@
+#SeeFilmNav{
+  height: .82rem;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  background: #ffffff;
+  .box{
+    height: .41rem;
+    padding: .08rem .12rem;
+    p{
+
+      a{
+        height: .25rem;
+        line-height: .25rem;
+        font-size: 14px;
+        color: #1a1a1a;
+        .icon-folder{
+          font-size: 20px;
+          margin-right: .05rem;
+        }
+      }
+    }
+    div{
+      a{
+        height: .25rem;
+        line-height: .25rem;
+        font-size: 14px;
+        color: #1a1a1a;
+        i{
+          font-size: 20px;
+          margin-left: .15rem;
+        }
+      }
+    }
+  }
+  ul{
+    display: flex;
+    width: 100%;
+    li{
+      width: 20%;
+      text-align: center;
+      .active{
+        color: #F74444;
+        border-bottom: 2px solid #F74444;
+      }
+      a{
+        display: block;
+        height: .41rem;
+        line-height: .41rem;
+        width: 100%;
+        color: #1a1a1a;
+        font-size: 14px;
+      }
+    }
+    li.i{
+      width: 10%;
+      text-align: center;
+    }
+  }
+}

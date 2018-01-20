@@ -1,0 +1,66 @@
+#Ranking{
+  overflow: hidden;
+  h2{
+    position: fixed;
+    height: .45rem;
+    width: 100%;
+    border-bottom: 1px solid #e7e7e7;
+    color: #666666;
+    font-size: 17px;
+    line-height: .44rem;
+    text-align: center;
+    font-weight: normal;
+    background: #ffffff;
+    i{
+      position: absolute;
+      left: .1rem;
+      font-size: 30px;
+    }
+  }
+  ul{
+    margin-top: .45rem;
+    li{
+      overflow: hidden;
+      border-bottom: 1px solid #e7e7e7;
+      padding: 10px 10px 8px;
+      img{
+        width: 22%;
+        margin-right: 3%;
+        float: left;
+      }
+      div{
+        width: 55%;
+        float: left;
+        margin-top: .09rem;
+        h3{
+          line-height: .3rem;
+          font-size: 16px;
+          color: #000;
+          font-weight: normal;
+        }
+        p{
+          line-height: .3rem;
+          color: #969696;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          font-size: 12px;
+          span{
+            color: #ffac2d;
+            font-size: 16px;
+          }
+        }
+      }
+      h4{
+        width: 20%;
+        text-align: center;
+        font-style: oblique;
+        float: left;
+        font-size: 45px;
+        font-weight: normal;
+        margin-top: .2rem;
+        color: rgba(235, 52, 82, 0.63);
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+#ASmallVideo{
+  margin-top: .82rem;
+  background: #efefef;
+  margin-bottom: .51rem;
+  overflow: hidden;
+  ul{
+    background: #ffffff;
+    margin-bottom: .15rem;
+    li{
+      margin-bottom: .05rem;
+      position: relative;
+      img{
+        width: 100%;
+      }
+      p{
+        position: absolute;
+        left: .12rem;
+        padding-right: .3rem;
+        bottom: .12rem;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        color: #ffffff;
+        font-size: 14px;
+        width: 100%;
+      }
+    }
+  }
+}

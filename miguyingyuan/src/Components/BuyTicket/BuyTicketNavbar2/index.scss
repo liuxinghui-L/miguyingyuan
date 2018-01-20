@@ -1,0 +1,22 @@
+#NavbarB{
+	margin-top: .4rem;
+	height:.5rem;
+	line-height:.5rem;
+	background:#fff;
+	a{
+		color:#3e3e3e;
+		font-size: 15px;
+	}
+	.downnav{
+	display:flex;
+	text-align:center;
+		p{
+		flex:1;
+		}
+	}
+	.active2{
+	display:block;
+	color:#f74444;
+	border-bottom:2px solid #f74444;
+	}
+}

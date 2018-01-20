@@ -1,0 +1,25 @@
+#Nav {
+  position: fixed;
+  bottom: 0;
+  background: #ffffff;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  height: .51rem;
+  z-index: 5;
+  ul {
+    display: flex;
+    line-height: .2rem;
+    height: .5rem;
+    padding-top: .05rem;
+    li {
+      flex: 1;
+      text-align: center;
+      a{
+        color: #666;
+      }
+    }
+    .active {
+      color: #F74444;
+    }
+  }
+}
